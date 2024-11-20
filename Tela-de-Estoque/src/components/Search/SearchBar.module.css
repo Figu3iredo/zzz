@@ -1,0 +1,35 @@
+/* src/components/Search/SearchBar.module.css */
+.container {
+    margin: 80px ;
+    margin-top: auto;
+    margin-left: 189px;
+    max-width: 300px;
+    padding: 0px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+  }
+  
+  .button {
+    padding: 9px;
+    border: none;
+    background: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background: #bbb;
+  }
+  

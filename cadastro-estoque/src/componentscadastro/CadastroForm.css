@@ -1,0 +1,103 @@
+.cadastro-container {
+    max-width: 900;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    margin-left: 100px;
+    position: relative;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    flex: 1;
+  }
+
+  .form-row { display: flex; 
+    gap: 130px; 
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+  }
+  
+  textarea {
+    resize: vertical; 
+  }
+
+  .form-buttons { 
+    display: flex; 
+    justify-content: space-between; 
+    gap: 10px; 
+  }
+  
+  button {
+    width: 15%;
+    position: absolute; 
+    top: 700px; 
+    left: 1100px;  
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color:#5D9292;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+
+  
+  button:hover {
+    background-color: #5D9292;
+  }
+
+  .cancel-button{
+    width: 15%; 
+    align-items: right; 
+    cursor: pointer; 
+    position: absolute; 
+    top: 700px;  
+    left: 850px;   
+    background-color:#CFE4E4; 
+    padding: 10px; 
+    border-radius: 10px;
+     color: #5D9292; 
+  }
+
+  .cancel-button:hover{
+    background-color: #97BFBF;
+  }
+  
+  
+  .image-upload { 
+    display: flex; 
+    align-items: right; 
+    cursor: pointer; 
+    position: absolute; 
+    top: 400px;  
+    left: 20px;   
+    background-color: #5D9292; 
+    padding: 10px; 
+    border-radius: 10px;
+     color: white; 
+    } 
+    
+    .image-upload input 
+    { display: none;
+    
+    } 
+    
+    .image-upload:hover {
+     background-color: #bbb;
+    }
+
+   
